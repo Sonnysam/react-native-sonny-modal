@@ -7,6 +7,7 @@ node_modules/
 .expo/
 dist/
 web-build/
+assets/
 
 # Native
 *.orig.*
@@ -35,4 +36,3 @@ yarn-error.*
 *.tsbuildinfo
 
 
-assets/
