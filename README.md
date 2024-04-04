@@ -10,7 +10,7 @@
 ```
 import React, { useState } from 'react';
 import { View, Button } from 'react-native';
-import SonnyModal from 'sonny-modal-react-native';
+import SonnyModal from 'sonny-react-native-modal';
 
 const App = () => {
 const [modalVisible, setModalVisible] = useState(false);
