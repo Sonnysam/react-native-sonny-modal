@@ -31,8 +31,7 @@ export default function App() {
           Discover step-by-step instructions to enhance your app experience.
         "
         animationType="slide"
-        presentationStyle="fullScreen"
-        transparent={true}
+        presentationStyle="pageSheet"
         onDismiss={() => console.log("Modal dismissed")}
         onShow={() => console.log("Modal shown")}
         backdropColor="black"
