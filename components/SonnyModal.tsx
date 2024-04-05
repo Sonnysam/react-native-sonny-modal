@@ -1,7 +1,7 @@
 import { StatusBar } from 'react-native'
 import { StyleSheet, Text, View, Modal, Animated, KeyboardAvoidingView, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { ModalProps } from '../Types/modalTypes';
+import { ModalProps } from '../types/modalTypes';
 import { Ionicons } from '@expo/vector-icons';
 
 

@@ -9,6 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "types": "types/modalTypes.d.ts",
   "dependencies": {
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
