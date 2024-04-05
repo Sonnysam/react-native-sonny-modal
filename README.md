@@ -80,7 +80,7 @@ export default App;
 5. **Commit Changes**: Commit your changes with a descriptive commit message.
 
     ```bash
-    git commit -am "Add feature: Description of your changes"
+    git commit -m "Add feature: Description of your changes"
     ```
 
 6. **Push Changes**: Push your changes to your forked repository.
