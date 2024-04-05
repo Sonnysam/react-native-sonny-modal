@@ -10,13 +10,22 @@
 ```
 import React, { useState } from 'react';
 import { View, Button } from 'react-native';
-import SonnyModal from 'sonny-react-native-modal';
+import { SonnyModal } from "sonny-react-native-modal/App";
+
 
 const App = () => {
 const [modalVisible, setModalVisible] = useState(false);
+
+    const openModal = () => {
+        setModalVisible(true);
+    };
+
+    const closeModal = () => {
+        setModalVisible(false);
+    };
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Button title="Open Modal" onPress={() => setModalVisible(true)} />
+            <Button title="Open Modal" onPress={openModal} />
             <SonnyModal
                 visible={modalVisible}
                 onClose={closeModal}
