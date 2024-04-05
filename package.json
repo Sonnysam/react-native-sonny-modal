@@ -1,6 +1,6 @@
 {
   "name": "sonny-react-native-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "node_modules/expo/AppEntry.js",
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "types": "types/modalTypes.d.ts",
   "dependencies": {
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",

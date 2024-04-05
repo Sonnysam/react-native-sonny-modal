@@ -5,7 +5,6 @@ export interface ModalProps {
   message: string | React.ReactNode;
   animationType?: "none" | "slide" | "fade";
   presentationStyle?: "pageSheet" | "formSheet" | "overFullScreen";
-  // transparent?: boolean;
   onDismiss?: () => void;
   onShow?: () => void;
   backdropColor?: string | undefined;
