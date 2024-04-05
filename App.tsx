@@ -1,3 +1,3 @@
-export default function App() {
-  return <></>;
-}
+import SonnyModal from "./components/SonnyModal";
+
+export { SonnyModal };
