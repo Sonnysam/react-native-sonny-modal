@@ -1,16 +1,16 @@
-# Sonny React Native Modal Component 🚀
+# React Native Sonny Modal Component 🚀
 ##### Sonny React Native Modal Component is a customizable modal component for React Native applications. It provides various props for controlling the appearance and behavior of the modal.
 
 ### Installation
 #### Install the package via npm:
-`npm install sonny-react-native-modal`
+`npm install react-native-sonny-modal`
 
 ### Usage
 #### Import the `SonnyModal` in your React Native application and use it like so:
 ```
 import React, { useState } from 'react';
 import { View, Button } from 'react-native';
-import { SonnyModal } from "sonny-react-native-modal/App";
+import { SonnyModal } from "react-native-sonny-modal";
 
 
 const App = () => {
