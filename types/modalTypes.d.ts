@@ -1,8 +1,10 @@
+import { ViewStyle } from "react-native";
 export interface ModalProps {
   visible: boolean;
   onClose: () => void;
-  title: string;
+  title: string | React.ReactNode;
   message: string | React.ReactNode;
+  style?: ViewStyle;
   animationType?: "none" | "slide" | "fade";
   presentationStyle?: "pageSheet" | "formSheet" | "overFullScreen";
   onDismiss?: () => void;
