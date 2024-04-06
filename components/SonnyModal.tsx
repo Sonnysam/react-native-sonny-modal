@@ -15,10 +15,7 @@ const SonnyModal: React.FC<ModalProps> = ({
     presentationStyle = 'pageSheet',
     onDismiss,
     onShow,
-    backdropColor,
-    backdropOpacity,
-    swipeDirection,
-    onSwipeComplete,
+    style,
     keyboardAvoiding = false
 }) => {
     const opacity = new Animated.Value(0);
@@ -50,7 +47,7 @@ const SonnyModal: React.FC<ModalProps> = ({
             {keyboardAvoiding ? (
                 <KeyboardAvoidingView style={{ flex: 1 }} behavior="padding">
                     <View style={styles.container}>
-                        <Animated.View style={[styles.modalView, { opacity }]}>
+                        <Animated.View style={[styles.modalView, { opacity }, style]}>
                             <Text style={styles.title}>{title}</Text>
                             <Text style={styles.message}>{message}</Text>
                             <TouchableOpacity onPress={onClose} style={styles.close}>
@@ -61,7 +58,7 @@ const SonnyModal: React.FC<ModalProps> = ({
                 </KeyboardAvoidingView>
             ) : (
                 <View style={styles.container}>
-                    <Animated.View style={[styles.modalView, { opacity }]}>
+                    <Animated.View style={[styles.modalView, { opacity }, style]}>
                         <TouchableOpacity onPress={onClose} style={styles.close}>
                             <Text><Ionicons name="close" size={24} color="black" /></Text>
                         </TouchableOpacity>
