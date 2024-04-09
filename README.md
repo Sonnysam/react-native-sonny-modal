@@ -7,7 +7,8 @@
 #### Install the package via npm:
 
 `npm install react-native-sonny-modal`
-`or`
+
+#### or
 
 #### Install the package via yarn:
 
